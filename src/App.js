@@ -11,7 +11,7 @@ class App extends Component {
       notes: []
     };
 
-    // this.dataURL = "https://ra-62.herokuapp.com/notes";
+    this.dataURL = "https://ra-62.herokuapp.com/notes";
   }
 
   componentDidMount() {
