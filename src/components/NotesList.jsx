@@ -3,7 +3,8 @@ import PropTypes from "prop-types";
 import Note from "./Note";
 
 const NotesList = ({ notes, handleDelete }) => {
-  return (
+
+    return (
     <div className="ui basic segment">
       <div className="ui grid">
         {notes.length

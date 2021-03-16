@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Note = ({ note, handleDelete }) => {
+
   return (
     <div className="six wide column">
       <div className="ui card">

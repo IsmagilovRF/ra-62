@@ -33,7 +33,7 @@ class App extends Component {
   };
 
   render() {
-    console.log(this.state.notes);
+    console.log('this.state.notes = ', this.state.notes);
     return (
       <div className="App">
         <div className="ui text container segment">
@@ -43,7 +43,7 @@ class App extends Component {
             handleDelete={this.handleDelete}
           />
         </div>
-        <p> learn react </p>
+        <p> learn react learn react</p>
       </div>
     );
   }
