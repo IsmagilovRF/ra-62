@@ -3,3 +3,4 @@ ra-62
 
 https://ismagilovrf.github.io/ra-62/
 
+git add .
